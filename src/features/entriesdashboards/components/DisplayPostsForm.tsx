@@ -11,7 +11,7 @@ import { useMemo, useState } from "react";
 const DisplayPostsForm = () => {
   const [page, setPage] = useState(1);
   const [searchTerm, setSearchTerm] = useState("");
-  const limit = 35;
+  const limit = 50;
   const { data, isLoading, error } = useGetAllPosts(page, limit);
   const totalPages = Math.ceil((data?.total || 0) / limit);
 
