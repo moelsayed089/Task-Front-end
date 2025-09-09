@@ -17,7 +17,7 @@ const Sidebar = () => {
         <div className="flex items-center space-x-2">
           <div className="w-8 h-8 rounded-lg flex items-center justify-center"></div>
           <span className="text-lg tracking-wide font-semibold dark:text-white text-gray-800">
-            Dashboard System
+            <Link to="/">Dashboard System</Link>
           </span>
         </div>
       </div>
@@ -44,7 +44,7 @@ const Sidebar = () => {
       </nav>
 
       <div className="p-4 flex items-center justify-between border-t dark:text-white text-xs text-gray-500">
-        Dashboard v1.0
+        <Link to="/">Dashboard v0.0.1</Link>
         <ModeToggle />
       </div>
     </div>
@@ -73,7 +73,7 @@ const Sidebar = () => {
             <Menu className="w-6 h-6 dark:text-white text-gray-700 hover:cursor-pointer" />
           </button>
           <span className="text-lg tracking-wide font-semibold dark:text-white text-gray-800">
-            Dashboard System
+            <Link to="/">Dashboard System</Link>
           </span>
         </div>
 
