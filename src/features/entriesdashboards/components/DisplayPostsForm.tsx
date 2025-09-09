@@ -42,7 +42,7 @@ const DisplayPostsForm = () => {
         </h1>
         <p className="text-pragraph-color">Manage posts on the platform</p>
 
-        <div className="flex items-center justify-between gap-4 flex-wrap mb-7 mt-5 dark:bg-black bg-gray-100/60 p-6 rounded-md ">
+        <div className="flex  items-center justify-between gap-4 flex-wrap mb-7 mt-5 dark:bg-black bg-gray-100/60 p-6 rounded-md ">
           <SearchBar onSearch={setSearchTerm} />
           <AddPostDialog />
         </div>

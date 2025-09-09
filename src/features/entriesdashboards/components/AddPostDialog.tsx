@@ -70,7 +70,7 @@ const AddPostDialog = () => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button>Add New Post</Button>
+        <Button className="w-full md:w-auto">Add New Post</Button>
       </DialogTrigger>
 
       <DialogContent>
